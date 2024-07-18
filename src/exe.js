@@ -36,7 +36,7 @@ notasAlunos.push({
 
 
 const alun = notasAlunos.filter(function(ita) {
-    return ita.nota <= 6.0
+    return ita.nota >= 6.0
 })
 
 

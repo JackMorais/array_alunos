@@ -29,6 +29,6 @@ notasAlunos.push({
   nota: 6.1
 });
 var alun = notasAlunos.filter(function (ita) {
-  return ita.nota <= 6.0;
+  return ita.nota >= 6.0;
 });
 console.log(alun);
